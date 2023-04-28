@@ -1,5 +1,5 @@
 Analysis & Synthesis report for modulador
-Thu Apr 27 15:57:44 2023
+Fri Apr 28 16:39:18 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -49,7 +49,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Apr 27 15:57:44 2023           ;
+; Analysis & Synthesis Status        ; Successful - Fri Apr 28 16:39:18 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; modulador                                       ;
 ; Top-level Entity Name              ; moduladorSCH_VHDL                               ;
@@ -169,21 +169,21 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                        ; Library ;
 +----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------+---------+
-; moduladorSCH_VHDL.vhd            ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/modulador-QPSK/moduladorSCH_VHDL.vhd       ;         ;
-; reloj_ar.vhd                     ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/modulador-QPSK/reloj_ar.vhd                ;         ;
-; antirrebote.vhd                  ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/modulador-QPSK/antirrebote.vhd             ;         ;
-; multiplexor.vhd                  ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/modulador-QPSK/multiplexor.vhd             ;         ;
-; pseudoaleatorio.vhd              ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/modulador-QPSK/pseudoaleatorio.vhd         ;         ;
-; onda.vhd                         ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/modulador-QPSK/onda.vhd                    ;         ;
-; reloj.vhd                        ; yes             ; User Wizard-Generated File   ; C:/Users/Mariano/Desktop/modulador-QPSK/reloj.vhd                   ;         ;
-; contador_rlj.vhd                 ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/modulador-QPSK/contador_rlj.vhd            ;         ;
-; PULSADOR.vhd                     ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/modulador-QPSK/PULSADOR.vhd                ;         ;
+; moduladorSCH_VHDL.vhd            ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/GeneratorQPSK/moduladorSCH_VHDL.vhd        ;         ;
+; reloj_ar.vhd                     ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/GeneratorQPSK/reloj_ar.vhd                 ;         ;
+; antirrebote.vhd                  ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/GeneratorQPSK/antirrebote.vhd              ;         ;
+; multiplexor.vhd                  ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/GeneratorQPSK/multiplexor.vhd              ;         ;
+; pseudoaleatorio.vhd              ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/GeneratorQPSK/pseudoaleatorio.vhd          ;         ;
+; onda.vhd                         ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/GeneratorQPSK/onda.vhd                     ;         ;
+; reloj.vhd                        ; yes             ; User Wizard-Generated File   ; C:/Users/Mariano/Desktop/GeneratorQPSK/reloj.vhd                    ;         ;
+; contador_rlj.vhd                 ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/GeneratorQPSK/contador_rlj.vhd             ;         ;
+; PULSADOR.vhd                     ; yes             ; User VHDL File               ; C:/Users/Mariano/Desktop/GeneratorQPSK/PULSADOR.vhd                 ;         ;
 ; altpll.tdf                       ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altpll.tdf        ;         ;
 ; aglobal130.inc                   ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc    ;         ;
 ; stratix_pll.inc                  ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_pll.inc   ;         ;
 ; stratixii_pll.inc                ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratixii_pll.inc ;         ;
 ; cycloneii_pll.inc                ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/cycloneii_pll.inc ;         ;
-; db/reloj_altpll6.v               ; yes             ; Auto-Generated Megafunction  ; C:/Users/Mariano/Desktop/modulador-QPSK/db/reloj_altpll6.v          ;         ;
+; db/reloj_altpll6.v               ; yes             ; Auto-Generated Megafunction  ; C:/Users/Mariano/Desktop/GeneratorQPSK/db/reloj_altpll6.v           ;         ;
 +----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------+---------+
 
 
@@ -241,13 +241,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                  ;
-+--------+--------------+---------+--------------+--------------+------------------------------------+---------------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                    ; IP Include File                                   ;
-+--------+--------------+---------+--------------+--------------+------------------------------------+---------------------------------------------------+
-; Altera ; ALTPLL       ; 13.0    ; N/A          ; N/A          ; |moduladorSCH_VHDL|reloj:b2v_inst5 ; C:/Users/Mariano/Desktop/modulador-QPSK/reloj.vhd ;
-+--------+--------------+---------+--------------+--------------+------------------------------------+---------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                 ;
++--------+--------------+---------+--------------+--------------+------------------------------------+--------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                    ; IP Include File                                  ;
++--------+--------------+---------+--------------+--------------+------------------------------------+--------------------------------------------------+
+; Altera ; ALTPLL       ; 13.0    ; N/A          ; N/A          ; |moduladorSCH_VHDL|reloj:b2v_inst5 ; C:/Users/Mariano/Desktop/GeneratorQPSK/reloj.vhd ;
++--------+--------------+---------+--------------+--------------+------------------------------------+--------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------+
@@ -737,7 +737,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Apr 27 15:57:38 2023
+    Info: Processing started: Fri Apr 28 16:39:12 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off modulador -c modulador
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file moduladorsch_vhdl.vhd
@@ -872,7 +872,7 @@ Info (21057): Implemented 751 device resources after synthesis - the final resou
     Info (21065): Implemented 1 PLLs
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 15 warnings
     Info: Peak virtual memory: 4634 megabytes
-    Info: Processing ended: Thu Apr 27 15:57:44 2023
+    Info: Processing ended: Fri Apr 28 16:39:18 2023
     Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:06
 

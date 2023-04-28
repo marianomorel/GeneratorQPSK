@@ -135,6 +135,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 240 592 304 608))
 )
 (pin
 	(output)
@@ -250,7 +251,7 @@ applicable agreement for further details.
 		(line (pt 78 4)(pt 82 8))
 	)
 	(flipx)
-	(annotation_block (location)(rect 184 568 248 584))
+	(annotation_block (location)(rect 16 592 80 608))
 )
 (pin
 	(output)
@@ -333,6 +334,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 944 264 1000 280))
 )
 (symbol
 	(rect 264 440 312 472)

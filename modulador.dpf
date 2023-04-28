@@ -2,6 +2,10 @@
 
 <pin_planner>
 	<pin_info>
+		<pin name="prng_o" source="Pin Planner" >
+		</pin>
+		<pin name="datos_ext" source="Pin Planner" >
+		</pin>
 		<pin name="LED_0" source="Pin Planner" >
 		</pin>
 		<pin name="LED_1" source="Pin Planner" >

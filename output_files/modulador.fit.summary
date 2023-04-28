@@ -1,11 +1,11 @@
-Fitter Status : Successful - Thu Apr 27 15:58:03 2023
+Fitter Status : Successful - Fri Apr 28 16:39:37 2023
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : modulador
 Top-level Entity Name : moduladorSCH_VHDL
 Family : Cyclone III
 Device : EP3C120F780C7
 Timing Models : Final
-Total logic elements : 659 / 119,088 ( < 1 % )
+Total logic elements : 663 / 119,088 ( < 1 % )
     Total combinational functions : 628 / 119,088 ( < 1 % )
     Dedicated logic registers : 157 / 119,088 ( < 1 % )
 Total registers : 157
